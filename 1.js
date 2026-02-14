@@ -56,13 +56,13 @@ function updateCart() {
         
     <div class="items_in_cart" id="cart_items">
       <div class="content1">
-        <img src="/Ecommerce Website/img/product/0.png" id="img_product_cart">
+        <img src="/product/0.png" id="img_product_cart">
         <div class="content">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, similique.</p>
-          <span class="price_item">$80</span>
+          <span class="price_item">${product.price}</span>
           <div class="quantity_control">
             <div class="increase_quantity">+</div>
-            <span id="num_item">1</span>
+            <span id="num_item">${product.id}</span>
             <div class="decrease_quantity">-</div>
           </div>
           <span id="trash"><i class="fa-solid fa-trash-can"></i></span>
